@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+all{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+header{
+    background-color:white;
+    height: 70px;
+}
+
+/* work for logo */
+
+.logo{
+    width: 30%;
+    height: 70px;
+    background: white;
+    float: left;
+
+}
+.logo img{
+    width: 110px;
+    margin-left: 60px;
+    
+}
+
+/* work for menu */
+.menu{
+    width: 40%;
+    height: 70px;
+    background: white;
+    float: left;
+
+}
+.menu a{
+    color: black;
+    margin: 15px;
+    line-height: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+    /*work for media  */
+
+.media{
+    width: 30%;
+    height: 70px;
+    background: white;
+    float: left;
+    
+}
+.media a{
+    color: blue;
+    margin: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+.fb i{
+    color: #243388;
+}
+.tw i{
+    color: #2196F3;
+}
+.lin i{
+    color: #3F51B5;
+}
+.google i{
+    color: #B84943
+}
+.volume i{
+    color: #000000;
+}
+.sign i{
+    color: #87B8E2;
+}
+/* --------------------------banner---------------------------*/
+.banner{
+    background: url(../img/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background: #f5f5f563;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .banner-content p{
+    margin-bottom: 10px;
+}
+.banner-content a{
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+    
+    
+}
+    
+/* icon section*/
+/* ------------------ work for done----------------*/
+.done{
+    background: white;
+    width: 275px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.done a{
+    color: blue;
+    margin-left: 110px;
+    font-size: 60px;
+    margin-top: 70px;
+    padding-bottom:10px;
+    
+}
+
+.done h4{
+    margin-left: 95px;
+}
+.done p{
+    padding: 10px;
+    text-align: justify;
+}
+.done button{
+    margin-left: 100px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+.done i{
+    padding-top: 15px;
+    color: #6879D4;
+}
+/* ------------------ work for map----------------*/
+.map{
+    background: white;
+    width: 275px;
+    height: 300px;
+    float: left;
+    
+}
+.map a{
+    color: blue;
+    margin-left: 110px;
+    font-size: 60px;
+    margin-top: 70px;
+    
+}
+.map h4{
+    margin-left: 95px;
+}
+.map p{
+    padding: 10px;
+    text-align: justify;
+}
+.map button{
+    margin-left: 100px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+.map i{
+    padding-top: 15px;
+    color: #009688;
+}
+/* ------------------ work for money----------------*/
+.money{
+    background: white;
+    width: 275px;
+    height: 300px;
+    float: left;
+}
+.money a{
+    color: blue;
+    margin-left: 105px;
+    font-size: 60px;
+    margin-top: 70px;
+    
+}
+.money h4{
+    margin-left: 95px;
+}
+.money p{
+    padding: 10px;
+    text-align: justify;
+}
+.money button{
+    margin-left: 100px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+.money i{
+    padding-top: 15px;
+    color: #4CAF50;
+}
+/* ------------------ work for sign up----------------*/
+.sign-up{
+    background: white;
+    width: 275px;
+    height: 300px;
+    float: left;
+}
+
+
+.sign-up a{
+    color: blue;
+    margin-left: 100px;
+    font-size: 60px;
+    margin-top: 70px;
+    
+}
+.sign-up h4{
+    margin-left: 95px;
+}
+.sign-up p{
+    padding: 10px;
+    text-align: justify;
+}
+.sign-up button{
+    margin-left: 100px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+.sign-up i{
+    padding-top: 15px;
+    color: #97E268;
+}
+      /* ------------------ section----------------*/
+
+.section-one{
+    width: 500px;
+    background: #B7CCD3;
+    height: 300px;
+    float: left;
+    margin: 30px;
+}
+
+.section-one h3{
+    text-align: center;
+    font-size: 25px;
+}
+.section-one ul li a i{
+    
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 18px;
+    margin: 10px;
+}
+.section-one ul{
+    list-style: none;
+}
+.section-one i{
+    color: #539033;
+}
+.section-one button{
+    padding: 5px;
+    margin-left: 160px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+
+.section-two{
+    width: 500px;
+    background: #B7CCD3;
+     height: 300px;
+      float: left;
+    margin: 30px;
+}
+.section-two h3{
+    text-align: center;
+    font-size: 25px;
+}
+.section-two ul li a i{
+    
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+    list-style: none;
+}
+.section-two ul{
+    list-style: none;
+}
+.section-two i{
+    color: #539033;
+}
+.section-two button{
+    padding: 5px;
+    margin-left: 160px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: white;
+    background: #66C430;
+    padding: 3px;
+    border-radius: 20px;
+}
+              /* ------------------ blog----------------*/
+
+.blog{
+    width: 70px;
+    background: white;
+    height: 50px;
+    float: left;
+    margin-left: 527px;
+}
+.blog h2{
+    color: #2D5D6F;
+    text-align: center;
+}
+
+                /* ------------------ 2nd section----------------*/
+
+.section-three{
+    width: 500px;
+    background: white;
+     height: 300px;
+      float: left;
+    margin: 30px;
+}
+.section-three h4{
+    padding: 10px;
+    color: #0E51A2;
+    font-size: 20px;
+}
+.section-three p{
+    padding: 10px;
+    text-align: justify;
+}
+.section-three button{
+    margin-left: 150px;
+    color: white;
+    background: #66C430;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    padding: 3px;
+    border-radius: 20px;
+}
+.section-four{
+    width: 500px;
+    background: white;
+     height: 300px;
+      float: left;
+    margin: 30px;
+}
+.section-four h4{
+    padding: 10px;
+    color: #0E51A2;
+    font-size: 20px;
+}
+.section-four p{
+    padding: 10px;
+    text-align: justify;
+}
+.section-four button{
+    margin-left: 150px;
+    color: white;
+    background: #66C430;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    padding: 3px;
+    border-radius: 20px;
+}
+               
+                       /* ------------------ trustpilot----------------*/
+
+.star{
+    background: white;
+   text-align: center;
+    padding: 45px 45px;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    
+  
+}
+.star a i{
+    margin-bottom: 15px;
+}
+.star i{
+    
+    color: #00B67A;
+}
+.five i{
+    width: 25px;
+    height: 25px;
+    background: #73CF11;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: 24px;
+    
+}
+.five-one i{
+    background: #9E9E9E;
+    color:white;
+}
+                    /* ------------------ mention of lendino----------------*/
+footer{
+    background: #808080;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.section-five {
+    
+    color: white;
+   text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    line-height: 15px;
+    padding: 10px;
+   
+    }
+
+.section-five p{
+    float: left;
+    padding: 25px;
+    margin-left: 70px;
+    
+}
+                        /* ------------------ foooooter    =----------------------*/
+
+footer1{
+    background-color: #052D3A;
+    height: 150px;
+    float: left;
+    width: 100%;
+}
+.first{
+    width: 45%;
+    height: 150px;
+    
+    float: left;
+   
+}
+.first p{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 40px;
+    color: white;
+}
+.first-two{
+    width: 45%;
+    height: 100px;
+    
+    float: left;
+}
+.first-two p{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 40px;
+    color: white;
+}
+
+
+
